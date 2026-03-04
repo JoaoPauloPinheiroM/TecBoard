@@ -63,12 +63,12 @@ function App() {
   return (
     <main>
 
-      // 04/03/2026 joao.mourao: Adiciona o header com a logo da empresa
+      {/* 04/03/2026 joao.mourao: Adiciona o header com a logo da empresa*/}
       <header>
         <img src="/logo.png" alt="Logo da empresa" />
       </header>
 
-      <Banner/> // 04/03/2026 joao.mourao: banner da mulher com oculos
+      <Banner/> {/* 04/03/2026 joao.mourao: banner da mulher com oculos*/}
 
       <FormularioDeEvento temas={temas} aoSubmeter={adicionarEvento} />
 
