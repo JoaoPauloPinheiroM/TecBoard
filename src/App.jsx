@@ -48,7 +48,7 @@ function App() {
         capa: 'https://i.pinimg.com/736x/61/7d/2d/617d2d60fd5aa35d8ce2560e139d27f4.jpg',
         tema: temas[0],
         data: new Date(),
-        titulo: 'Aonde o js me levou'
+        titulo: 'Aonde o javaScript me levou'
       },
       {
         capa: 'https://i.pinimg.com/1200x/94/e4/b8/94e4b8ac4a8b734ab93a55369354649c.jpg',
