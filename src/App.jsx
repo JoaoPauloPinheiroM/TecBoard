@@ -41,14 +41,20 @@ function App() {
 
 
   //crio um estado para armazenar os eventos criados no formulario, com um valor inical para o useState.
-  //A primeira posicao é o valor do estado e a segunda posicao é a funcao para atualizar o estado
+  //A primeira posicao é o valor do estado e a segunda posicao é a funcao para atualizar o estado 
   const [eventos, setEventos] = useState(
     [
       {
-        capa: 'https://raw.githubusercontent.com/viniciosneves/tecboard-assets/refs/heads/main/imagem_1.png',
+        capa: 'https://i.pinimg.com/736x/61/7d/2d/617d2d60fd5aa35d8ce2560e139d27f4.jpg',
         tema: temas[0],
         data: new Date(),
-        titulo: 'Mulheres no front'
+        titulo: 'Aonde o js me levou'
+      },
+      {
+        capa: 'https://i.pinimg.com/1200x/94/e4/b8/94e4b8ac4a8b734ab93a55369354649c.jpg',
+        tema: temas[1],
+        data: new Date(),
+        titulo: 'Trump irá proibir node.js?'
       }
     ]
   )
